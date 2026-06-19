@@ -7,13 +7,14 @@ export const getAllCharacters = (page) => {
         const response = await axios.get(
             `https://rickandmortyapi.com/api/character?page=${page}`
         );
-
-        dispatch({
+        let action={
             type: "GET_CHARACTERS",
             payload: {
                 characters: response.data.results,
                 totalPages: response.data.info.pages
             }
-        });
+        }
+
+        dispatch(action);
     };
 };

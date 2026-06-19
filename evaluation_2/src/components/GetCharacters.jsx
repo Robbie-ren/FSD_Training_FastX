@@ -5,24 +5,24 @@ import { getAllCharacters } from "../store/action/CharacterAction"
 
 const GetCharacters = () => {
 
-    
+
     const [currentPage, setCurrentPage] = useState(0)
     const [size, setSize] = useState(20)
     const [array, setArray] = useState([])
     let count = 0
 
     const { characters, totalPages } = useSelector(
-    state => state.characters
+        state => state.characters
     )
-    
+
 
     const dispatch = useDispatch()
 
-    
+
     useEffect(() => {
-    dispatch(getAllCharacters(currentPage))
-    
-}, [currentPage])
+        dispatch(getAllCharacters(currentPage))
+
+    }, [currentPage])
     return (
         <div>
             <table className="table">
@@ -40,7 +40,7 @@ const GetCharacters = () => {
                     {
                         characters.map((character, index) => (
                             <tr key={index}>
-                                <th scope="row">{(index+1) + (currentPage * size)}</th>
+                                <th scope="row">{(index + 1) + (currentPage * size)}</th>
                                 <td>{character.name}</td>
                                 <td>{character.status}</td>
                                 <td>{character.species}</td>
@@ -66,7 +66,7 @@ const GetCharacters = () => {
                         ))
                     }
                     <li className="page-item">
-                        <button className="page-link" disabled={currentPage === totalPages-1}
+                        <button className="page-link" disabled={currentPage === totalPages - 1}
                             onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
                     </li>
 
