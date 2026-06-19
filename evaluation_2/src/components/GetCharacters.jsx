@@ -65,7 +65,7 @@ const GetCharacters = () => {
                         ))
                     }
                     <li className="page-item">
-                        <button className="page-link" disabled={currentPage === totalPages}
+                        <button className="page-link" disabled={currentPage === totalPages-1}
                             onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
                     </li>
 
