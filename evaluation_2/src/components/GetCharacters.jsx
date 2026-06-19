@@ -14,6 +14,7 @@ const GetCharacters = () => {
     const { characters, totalPages } = useSelector(
     state => state.characters
     )
+    
 
     const dispatch = useDispatch()
 
