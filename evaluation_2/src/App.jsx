@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import UserList from "./components/UserList"
 import AdminDashBoard from "./components/AdminDashboard"
 import AddUser from "./components/AddUser"
+import GetCharacters from "./components/GetCharacters"
 
 const App=()=>{
   return(
@@ -10,6 +11,7 @@ const App=()=>{
         <Route path="/" element={<AdminDashBoard />}>
         <Route path="/users" element={<UserList />}></Route>
         <Route path="/add-user" element={<AddUser />}></Route>
+        <Route path="/characters" element={<GetCharacters/>}></Route>
         </Route>
         
       </Routes>

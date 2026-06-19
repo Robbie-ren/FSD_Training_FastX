@@ -18,6 +18,10 @@ const AdminDashBoard=()=>{
                     <NavLink to="/add-user" className="nav-link">
                         Add User
                     </NavLink>
+
+                    <NavLink to="/characters" className="nav-link">
+                        Get Characters
+                    </NavLink>
                 </div>
             </nav>
             <Outlet/>
