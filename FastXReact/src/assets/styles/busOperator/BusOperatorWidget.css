@@ -1,0 +1,180 @@
+.operator-dashboard {
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #071422,
+        #10253f
+    );
+    color: white;
+}
+
+
+/* Welcome Section */
+
+.welcome-card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    padding: 28px 35px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+
+.welcome-card h2 {
+    font-weight: 700;
+}
+
+
+.welcome-card p {
+    color: #d0d7e2;
+    margin-bottom: 0;
+}
+
+
+/* Stats */
+
+.stat-card {
+
+    background: #132943;
+
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+
+    transition: 0.3s ease;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+}
+
+
+.stat-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 
+        0 15px 30px rgba(0,0,0,0.35);
+
+}
+
+
+.stat-icon {
+
+    font-size: 2rem;
+    color: #ffc107;
+
+}
+
+
+.stat-card h3 {
+
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+
+.stat-card p {
+
+    color: #c4d0dd;
+    margin-bottom: 0;
+
+}
+
+
+
+/* Management */
+
+.management-card {
+
+    background: #132943;
+
+    border-radius: 22px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    height: 100%;
+
+    transition: 0.3s ease;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+}
+
+
+.management-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 20px 35px rgba(0,0,0,0.45);
+
+}
+
+
+.icon-box {
+
+    width: 70px;
+    height: 70px;
+
+    background: #ffc107;
+
+    color: #071422;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: 0 auto 20px;
+
+    font-size: 2rem;
+
+}
+
+
+.management-card h3 {
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+}
+
+
+.management-card p {
+
+    color: #c4d0dd;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:768px) {
+
+    .welcome-card {
+
+        flex-direction: column;
+
+        gap: 20px;
+
+        text-align: center;
+
+    }
+
+}

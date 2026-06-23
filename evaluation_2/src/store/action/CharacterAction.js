@@ -6,7 +6,7 @@ export const getAllCharacters = (page) => {
 
         const response = await axios.get(
             `https://rickandmortyapi.com/api/character?page=${page}`
-        );
+        )
         let action={
             type: "GET_CHARACTERS",
             payload: {
@@ -15,6 +15,6 @@ export const getAllCharacters = (page) => {
             }
         }
 
-        dispatch(action);
-    };
-};
+        dispatch(action)
+    }
+}

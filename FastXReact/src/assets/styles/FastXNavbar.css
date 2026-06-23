@@ -1,0 +1,41 @@
+.fastx-navbar {
+    background: linear-gradient(
+        90deg,
+        #0f172a,
+        #1e293b
+    );
+    padding: 0.9rem 0;
+}
+
+.fastx-logo {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.fastx-logo:hover {
+    color: #ffc107 !important;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+.btn-outline-light {
+    border-width: 2px;
+}
+
+.btn-warning {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+p{
+    color: azure;
+}

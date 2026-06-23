@@ -1,0 +1,201 @@
+.fsx-user-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b
+    );
+    padding: 30px 0;
+}
+
+
+.fsx-user-card {
+    background: #111827;
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid rgba(250, 204, 21, 0.3);
+}
+
+
+.fsx-user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fsx-user-header h2 {
+    color: white;
+    font-weight: 700;
+}
+
+
+.fsx-user-header p {
+    color: #94a3b8;
+}
+
+
+.status-buttons {
+    margin: 25px 0;
+    display: flex;
+    gap: 15px;
+}
+
+
+.fsx-btn-gold {
+    background: #facc15;
+    color: #0f172a;
+    font-weight: 600;
+    border: none;
+}
+
+
+.fsx-btn-gold:hover {
+    background: #eab308;
+    color: #0f172a;
+}
+
+
+.fsx-btn-outline {
+    background: transparent;
+    border: 1px solid #facc15;
+    color: #facc15;
+}
+
+
+.fsx-btn-outline:hover {
+    background: #facc15;
+    color: #0f172a;
+}
+
+
+/* Table */
+
+.fsx-table {
+    color: white;
+    margin-top: 10px;
+}
+
+
+.fsx-table thead {
+    background: #1e293b;
+}
+
+
+.fsx-table th {
+    color: #facc15;
+    border-bottom: 2px solid #334155;
+}
+
+
+.fsx-table td {
+    border-color: #334155;
+    vertical-align: middle;
+}
+
+
+.fsx-table tbody tr:hover {
+    background-color: rgba(250, 204, 21, 0.08);
+}
+
+
+/* Status */
+
+.status-active {
+    background: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+.status-disabled {
+    background: rgba(239, 68, 68, 0.2);
+    color: #f87171;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+/* Pagination */
+
+.pagination-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.page-number {
+    color: white;
+    font-weight: 500;
+}
+
+
+/* Mobile */
+
+@media(max-width: 768px) {
+
+    .fsx-user-card {
+        padding: 20px;
+    }
+
+    .status-buttons {
+        flex-direction: column;
+    }
+
+
+    .pagination-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Search Section */
+
+.fsx-search-container {
+    margin-bottom: 25px;
+}
+
+
+.fsx-search-bar {
+    max-width: 450px;
+}
+
+
+.fsx-search-bar .input-group-text {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: #facc15;
+}
+
+
+.fsx-search-bar .form-control {
+    background: #0f172a;
+    color: white;
+    border: 1px solid #334155;
+}
+
+
+.fsx-search-bar .form-control::placeholder {
+    color: #94a3b8;
+}
+
+
+.fsx-search-bar .form-control:focus {
+    background: #0f172a;
+    color: white;
+    border-color: #facc15;
+    box-shadow: 0 0 8px rgba(250, 204, 21, 0.35);
+}
+
+
+.fsx-search-bar .btn {
+    border-radius: 0 6px 6px 0;
+}
+
+}

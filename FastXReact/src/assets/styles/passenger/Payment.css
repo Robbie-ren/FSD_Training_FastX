@@ -1,0 +1,82 @@
+.payment-page {
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b
+    );
+    display: flex;
+    align-items: center;
+}
+
+.payment-card {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.payment-title {
+    color: #0f172a;
+    font-weight: 700;
+}
+
+.payment-subtitle {
+    color: #64748b;
+}
+
+.summary-heading {
+    color: #0f172a;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.booking-summary {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: #334155;
+}
+
+.total-row {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.status-badge {
+    background: #facc15;
+    color: #0f172a;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.payment-btn {
+    width: 100%;
+    background: #facc15;
+    color: #0f172a;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.payment-btn:hover:not(:disabled) {
+    background: #eab308;
+}
+
+.payment-btn:disabled {
+    opacity: 0.7;
+}

@@ -1,0 +1,132 @@
+.admin-dashboard-container {
+    min-height: 100vh;
+    padding: 30px;
+    background: linear-gradient(
+        180deg,
+        #0f172a 0%,
+        #111827 50%,
+        #1e293b 100%
+    );
+}
+
+/* Header */
+
+.dashboard-header {
+    margin-bottom: 35px;
+}
+
+.dashboard-title {
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.dashboard-subtitle {
+    color: #94a3b8;
+    margin: 0;
+}
+
+/* Stat Cards */
+
+.stat-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    padding: 25px;
+    backdrop-filter: blur(12px);
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+    border-color: #facc15;
+    box-shadow: 0 10px 25px rgba(250,204,21,0.15);
+}
+
+.stat-icon {
+    font-size: 2rem;
+    color: #facc15;
+    margin-bottom: 15px;
+}
+
+.stat-card h3 {
+    color: white;
+    font-weight: 700;
+}
+
+.stat-card p {
+    color: #cbd5e1;
+    margin-bottom: 0;
+}
+
+/* Charts */
+
+.chart-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    padding: 20px;
+    height: 100%;
+}
+
+.chart-header h5 {
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.chart-placeholder {
+    height: 350px;
+    border-radius: 12px;
+    border: 2px dashed rgba(250,204,21,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #facc15;
+    font-weight: 600;
+    background: rgba(255,255,255,0.02);
+}
+
+/* Recent Activity */
+
+.recent-section {
+    background: rgba(255,255,255,0.05);
+    border-radius: 18px;
+    padding: 25px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.section-header h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Table */
+
+.recent-table {
+    margin-bottom: 0;
+}
+
+.recent-table thead th {
+    color: #facc15;
+    border-color: rgba(255,255,255,0.08);
+}
+
+.recent-table tbody td {
+    color: #e2e8f0;
+    border-color: rgba(255,255,255,0.08);
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .admin-dashboard-container {
+        padding: 20px;
+    }
+
+    .chart-placeholder {
+        height: 280px;
+    }
+}

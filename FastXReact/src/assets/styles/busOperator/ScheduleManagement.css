@@ -1,0 +1,82 @@
+.fsx-schedule-wrapper {
+    background: linear-gradient(135deg, #0b1320, #111c2e);
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+/* Card */
+.fsx-schedule-card {
+    background: #0f1b2d;
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+/* Header */
+.fsx-schedule-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fsx-schedule-header h2 {
+    color: #ffd700;
+    font-weight: 600;
+}
+
+.fsx-schedule-header p {
+    color: #aab4c0;
+    margin: 0;
+}
+
+/* Search */
+.fsx-search-bar .form-control {
+    background: #15243a;
+    border: 1px solid #22334d;
+    color: white;
+}
+
+.fsx-search-bar .form-control:focus {
+    background: #15243a;
+    color: white;
+    border-color: #ffd700;
+    box-shadow: none;
+}
+
+.fsx-search-bar .input-group-text {
+    background: #15243a;
+    border: 1px solid #22334d;
+    color: #ffd700;
+}
+
+/* Table */
+.fsx-table {
+    color: white;
+    border-color: #22334d;
+}
+
+.fsx-table thead {
+    background: #15243a;
+    color: #ffd700;
+}
+
+.fsx-table tbody tr {
+    border-color: #22334d;
+}
+
+.fsx-table tbody tr:hover {
+    background: rgba(255, 215, 0, 0.05);
+}
+
+/* Buttons reuse your FSX style idea */
+.fsx-btn-gold {
+    background: #ffd700;
+    color: #0b1320;
+    font-weight: 600;
+    border: none;
+}
+
+.fsx-btn-gold:hover {
+    background: #e6c200;
+    color: #0b1320;
+}

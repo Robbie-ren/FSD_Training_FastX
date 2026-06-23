@@ -1,0 +1,46 @@
+.login-page {
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b
+    );
+}
+
+.login-card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.login-icon {
+    font-size: 3rem;
+    color: #ffc107;
+}
+
+.fastx-input {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.fastx-input:focus {
+    box-shadow: none;
+    border-color: #ffc107;
+}
+
+.fastx-btn {
+    background-color: #ffc107;
+    color: #0f172a;
+    font-weight: 600;
+    height: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.fastx-btn:hover {
+    background-color: #ffca2c;
+    color: #0f172a;
+}
+
+.card-body h2 {
+    color: #0f172a;
+}

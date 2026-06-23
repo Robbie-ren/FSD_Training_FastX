@@ -1,0 +1,98 @@
+.booking-history-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+
+.history-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+.history-header h1 {
+    color: #fbbf24;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+
+.history-header p {
+    color: #cbd5e1;
+}
+
+
+.booking-card {
+    background: rgba(30, 41, 59, 0.95);
+    border: 1px solid #334155;
+    border-radius: 18px;
+    color: white;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+
+.booking-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(251, 191, 36, 0.25);
+}
+
+
+.booking-card-header {
+    background: #111827;
+    color: #fbbf24;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #334155;
+    padding: 15px 20px;
+}
+
+
+.booking-card-header h5 {
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.status-badge {
+    background: #fbbf24;
+    color: #111827;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    color: #e2e8f0;
+}
+
+
+.detail-row strong {
+    color: #94a3b8;
+}
+
+
+.amount-row {
+    text-align: right;
+    color: #fbbf24;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+.no-booking-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: #cbd5e1;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+}

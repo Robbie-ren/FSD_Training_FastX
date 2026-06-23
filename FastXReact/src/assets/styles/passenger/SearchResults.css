@@ -1,0 +1,78 @@
+.search-results-page {
+    background-color: #f8fafc;
+    min-height: 100vh;
+}
+
+.filter-card {
+    background: #0f172a;
+    color: white;
+    border-radius: 20px;
+    padding: 25px;
+    position: sticky;
+    top: 90px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.filter-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #ffc107;
+}
+
+.form-check {
+    margin-bottom: 12px;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.form-check-label {
+    cursor: pointer;
+}
+
+.results-header {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.schedule-card {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.schedule-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.price-tag {
+    color: #f59e0b;
+    font-weight: 700;
+}
+
+.form-range::-webkit-slider-thumb {
+    background: #ffc107;
+}
+
+.form-range::-moz-range-thumb {
+    background: #ffc107;
+}
+
+@media(max-width: 992px) {
+
+    .filter-card {
+        position: static;
+    }
+
+    .schedule-card {
+        text-align: center;
+    }
+}

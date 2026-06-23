@@ -12,9 +12,9 @@ export const characterReducer = (state = initialState, action) => {
                 ...state,
                 characters: action.payload.characters,
                 totalPages: action.payload.totalPages
-            };
+            }
 
         default:
             return state;
     }
-};
+}

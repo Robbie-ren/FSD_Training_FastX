@@ -1,0 +1,95 @@
+.cancel-page {
+    min-height: 100vh;
+}
+
+
+/* Header */
+
+.cancel-header h2 {
+    color: #111827;
+}
+
+.cancel-header p {
+    color: #6b7280;
+}
+
+
+/* Main card */
+
+.cancel-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+
+/* Table */
+
+.cancel-card table {
+    margin: 0;
+}
+
+
+.cancel-card thead {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+
+.cancel-card th {
+    padding: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+
+.cancel-card td {
+    padding: 18px;
+    vertical-align: middle;
+}
+
+
+/* Status */
+
+.status-badge {
+    background: #fef3c7;
+    color: #b45309;
+    padding: 8px 14px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+/* Buttons */
+
+.approve-btn {
+    background: #fbbf24;
+    color: #111827;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+
+.approve-btn:hover {
+    background: #f59e0b;
+    color: #111827;
+}
+
+
+.reject-btn {
+    background: #ef4444;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+
+.reject-btn:hover {
+    background: #dc2626;
+    color: white;
+}

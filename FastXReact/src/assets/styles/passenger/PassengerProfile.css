@@ -1,0 +1,89 @@
+/* FSX THEME BASE */
+.fsx-profile-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0b1320, #111c2e, #0f172a);
+  color: #e5e7eb;
+}
+
+/* MAIN CARD */
+.fsx-profile-card {
+  background: rgba(17, 24, 39, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+}
+
+/* HEADER */
+.fsx-profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fsx-profile-header h2 {
+  color: #f8fafc;
+}
+
+/* DIVIDER */
+.fsx-divider {
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 20px 0;
+}
+
+/* LABELS */
+.fsx-label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 6px;
+}
+
+/* VALUE TEXT (VIEW MODE) */
+.fsx-value {
+  font-size: 1.05rem;
+  color: #f1f5f9;
+  padding: 10px 0;
+  border-bottom: 1px solid transparent;
+}
+
+/* INPUTS */
+.fsx-input {
+  background-color: #0f172a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #f8fafc;
+}
+
+.fsx-input:focus {
+  background-color: #0f172a;
+  color: #fff;
+  border-color: #fbbf24;
+  box-shadow: none;
+}
+
+/* GOLD BUTTON (PRIMARY FSX ACTION) */
+.fsx-btn-gold {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  border: none;
+  color: #0b1320;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.fsx-btn-gold:hover {
+  opacity: 0.9;
+}
+
+/* OUTLINE BUTTON */
+.fsx-btn-outline {
+  background: transparent;
+  border: 1px solid #334155;
+  color: #e2e8f0;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.fsx-btn-outline:hover {
+  border-color: #fbbf24;
+  color: #fbbf24;
+}

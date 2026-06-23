@@ -1,0 +1,160 @@
+.seat-page {
+    min-height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b
+    );
+}
+
+.seat-selection-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.seat-legend {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.legend {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.legend.available {
+    border: 2px solid #facc15;
+    background: white;
+}
+
+.legend.selected {
+    background: #facc15;
+}
+
+.legend.booked {
+    background: #475569;
+}
+
+.driver-box {
+    width: 180px;
+    margin: 0 auto 30px;
+    text-align: center;
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #334155;
+}
+
+.seat-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seat-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.seat-aisle {
+    width: 40px;
+}
+
+.seat-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+.seat-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+}
+
+.seat-available {
+    background: white;
+    border: 2px solid #facc15;
+    color: #0f172a;
+}
+
+.seat-selected {
+    background: #facc15;
+    color: #0f172a;
+}
+
+.seat-booked {
+    background: #475569;
+    color: white;
+    cursor: not-allowed;
+}
+
+.booking-summary {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.fastx-book-btn {
+    background: #facc15;
+    color: #0f172a;
+    font-weight: 700;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.fastx-book-btn:hover {
+    background: #eab308;
+}
+
+p {
+    color: black;
+}
+
+.passenger-box {
+    width: 400px;
+    margin: 20px auto;
+    padding: 18px;
+    border-radius: 15px;
+
+    background: #0f172a;
+    border: 2px solid #facc15;
+
+    text-align: left;
+}
+
+.passenger-box h6 {
+    color: #facc15;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.passenger-box .form-control {
+    background: #1e293b;
+    color: white;
+    border: 1px solid #475569;
+}
+
+.passenger-box .form-control:focus {
+    background: #1e293b;
+    color: white;
+    border-color: #facc15;
+    box-shadow: 0 0 8px rgba(250, 204, 21, 0.5);
+}
+
+.passenger-box .form-control::placeholder {
+    color: #94a3b8;
+}
